@@ -373,7 +373,7 @@ function createTinyHeartGeometry(){
 const heartMaterial = new THREE.MeshBasicMaterial({
   color: 0xff6a00,   // cam sáng, cùng tông với hạt nhỏ
     transparent: true,
-    opacity: 0.8,      // có thể chỉnh từ 0.6 → 1.0
+    opacity: 1,      // có thể chỉnh từ 0.6 → 1.0
     side: THREE.DoubleSide,
     blending: THREE.AdditiveBlending  // cho cảm giác phát sáng
     
@@ -443,4 +443,5 @@ window.addEventListener("resize",()=>{
 </script>
 </body>
 </html>
+
 
