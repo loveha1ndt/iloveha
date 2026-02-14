@@ -358,7 +358,7 @@ const heartClock = new THREE.Clock();
 function updateHeart(){
   const t = heartClock.getElapsedTime();
   const baseScale = 1;
-  const scale = baseScale + Math.sin(t*3)*0.8;  // nhịp rất nhỏ
+  const scale = baseScale + Math.sin(t*3)*0.6;  // nhịp rất nhỏ
   heartMesh.scale.set(scale, scale, scale);
 
 }
@@ -410,4 +410,5 @@ window.addEventListener("resize",()=>{
 </script>
 </body>
 </html>
+
 
